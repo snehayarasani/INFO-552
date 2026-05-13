@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Sneha Yarasani Portfolio Website</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+  body {
+    font-family: Inter, sans-serif; 
+    background-color: #faf8f5;
+    color: #222;
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    line-height: 1.7;
+  }
+
+  a {
+    color: #b85c2c;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  nav { 
+    background-color: #fff;
+    border-bottom: 1px solid #e5e0d8;
+    padding: 16px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav .logo {
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 20px;
+    color: #222;
+    text-decoration: none;
+  }
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 32px;
+  }
+
+  nav ul a {
+    font-size: 14px;
+    color: #666;
+  }
+
+  nav ul a:hover,
+  nav ul a.active { 
+    color: #b85c2c;
+  }
+
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 60px 40px;
+  }
+
+  h1 {
+    font-size: 56px;
+    margin-bottom: 30px;
+  }
+
+  .about-layout {
+    display: flex;
+    gap: 60px;
+    align-items: flex-start;
+  }
+
+  .bio {
+    flex: 2;
+  }
+
+  .bio p {
+    color: #444;
+    margin-bottom: 18px;
+  }
+
+  /* INTERESTS */
+  .sidebar-section {
+    margin-top: 30px;
+  }
+
+  .sidebar-label {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #b85c2c;
+    margin-bottom: 10px;
+  }
+
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .sidebar ul li {
+    font-size: 15px;
+    color: #555;
+    padding: 6px 0;
+    border-bottom: 1px solid #e5e0d8;
+  }
+
+  .image-grid {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+
+  .image-grid img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  }
+
+  footer { 
+    text-align: center;
+    padding: 32px;
+    font-size: 12px;
+    color: #999;
+    border-top: 1px solid #e5e0d8;
+    margin-top: 60px;
+  }
+
+      .image-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+</style>
+</head>
+
+<body> 
+
+<nav>
+  <a class="logo" href="index.html">Sneha Yarasani</a>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html" class="active">About</a></li>
+    <li><a href="resume.html">Resume</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="associations.html">Associations</a></li>
+  </ul>
+</nav>
+
+<div class="container">
+
+  <h1>About Me</h1>
+
+  <div class="about-layout">
+
+   
+    <div class="bio"> 
+
+      <p>"There are no straight lines in nature." - Gaudi</p>
+
+      <p>My journey has been anything but linear. I studied landscape design and behavioral economics, developed financial models, designed cafe menus, and I'm currently researching Gen Z manifestation content.</p>
+
+      <p>I was in a phase of wanting to understand what genuinely motivates me outside of structured goals and external expectations. I didn’t just want new hobbies—I wanted to see how I responded to unfamiliar environments, physical learning curves, solitude, and social settings where I had no existing identity or role to fall back on.</p>
+
+      <p>I intentionally explored a mix of hands-on crafts, physical activities, and immersive travel experiences, including crochet, film photography, ceramics, rock climbing, ballroom dancing, and solo travel across Asia. Each experience pushed me into a different mode of learning—slow and repetitive skill-building, embodied physical trust, structured partner coordination, and navigating unfamiliar cultures independently. I approached each one as a way to observe how I learn, adapt, and engage with uncertainty in real time.</p>
+
+      <p>This exploration strengthened my ability to learn new skills quickly, stay present in discomfort, and adapt across very different environments. I built greater confidence in navigating ambiguity, improved my observation of my own behavioral patterns in new settings, and developed a stronger sense of how context shapes engagement and learning.</p>
+
+      <div class="sidebar-section sidebar">
+        <div class="sidebar-label">Interests</div>
+        <ul>
+          <li>Ballroom Dance</li>
+          <li>Rock Climbing</li>
+          <li>Ceramics & Crochet</li>
+          <li>Painting</li>
+        </ul>
+      </div>
+
+    </div>
+
+   
+    <div class="image-grid">
+
+      <img src="https://framerusercontent.com/images/YWouGOkp8oGJfiUzPIOGruvl48.webp?width=650&height=780" alt="image 1">
+      <img src="https://framerusercontent.com/images/hpx9hpz2LzcuUFU4jHN32z7SY.png?width=650&height=780" alt="image 2">
+      <img src="https://framerusercontent.com/images/BSEBZpLmkAFh0JZ22whLQeYQ.png?width=650&height=780" alt="image 3">
+
+    </div>
+
+  </div>
+
+</div>
+
+<footer>
+  Sneha Yarasani © 2026 | Philadelphia, PA
+</footer>
+
+</body>
+</html>

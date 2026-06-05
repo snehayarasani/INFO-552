@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Volunteer Opportunities</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family:'Inter',sans-serif;
+            background:#F8F9F4;
+            color:#333;
+            line-height:1.6;
+        }
+
+        header{
+            background:#ce6443;
+            padding:16px 5%;
+        }
+
+        nav{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+        }
+
+        .logo{
+            color:white;
+            font-family:'Poppins',sans-serif;
+            font-size:28px;
+            font-weight:bold;
+        }
+
+        .nav-links{
+            list-style:none;
+            display:flex;
+            gap:24px;
+            flex-wrap:wrap;
+        }
+
+        .nav-links a{
+            color:white;
+            text-decoration:none;
+        }
+
+        .nav-links a:hover{
+            text-decoration:underline;
+        }
+
+        .hero{
+            background:#b46147;
+            text-align:center;
+            padding:64px 32px;
+        }
+
+        .hero h1{
+            font-family:'Poppins',sans-serif;
+            color:white;
+            margin-bottom:16px;
+        }
+
+        .hero p{
+            max-width:800px;
+            color: white;
+            margin:auto;
+        }
+
+        .opportunities{
+            padding:64px 8%;
+        }
+
+        .opportunities h2{
+            color:#c97b63;
+            font-family:'Poppins',sans-serif;
+            margin-bottom:32px;
+        }
+
+        .table-header{
+            display:grid;
+            grid-template-columns:2fr 1fr 1fr 1fr auto;
+            gap:16px;
+            background:#c97b63;
+            color:white;
+            padding:16px;
+            font-weight:bold;
+            border-radius:8px 8px 0 0;
+        }
+
+        .opportunity-row{
+            display:grid;
+            grid-template-columns:2fr 1fr 1fr 1fr auto;
+            gap:16px;
+            padding:20px;
+            background:white;
+            border-bottom:1px solid #ddd;
+            align-items:center;
+        }
+
+        .opportunity-row:nth-child(even){
+            background:#f3f6f0;
+        }
+
+        .opportunity-title h3{
+            color:#c97b63;
+            margin-bottom:4px;
+        }
+
+        .opportunity-title p{
+            color:#666;
+            font-size: 15px;
+        }
+
+        .signup-btn{
+            background:#c97b63;
+            color:white;
+            text-decoration:none;
+            padding:8px 16px;
+            border-radius:5px;
+        }
+
+        .signup-btn:hover{
+            background:#cc441a;
+        }
+
+        .info-section{
+            padding:64px 8%;
+            text-align:center;
+        }
+
+        .info-section h2{
+            color:#c97b63;
+            margin-bottom:16px;
+            font-family:'Poppins',sans-serif;
+        }
+
+        footer{
+            background:#c97b63;
+            color:white;
+            text-align:center;
+            padding:32px;
+        }
+
+        @media(max-width:768px){
+
+            nav{
+                flex-direction:column;
+                gap:16px;
+            }
+
+            .table-header{
+                display:none;
+            }
+
+            .opportunity-row{
+                grid-template-columns:1fr;
+                gap:12px;
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+
+<header>
+
+    <nav>
+
+        <div class="logo">Community Harvest</div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="find-gardens.html">Find Gardens</a></li>
+            <li><a href="volunteer.html">Volunteer Opportunities</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="accessibility.html">Accessibility & FAQ</a></li>
+        </ul>
+
+    </nav>
+
+</header>
+
+<section class="hero">
+
+    <h1>Volunteer Opportunities</h1>
+
+    <p>
+        Browse upcoming volunteer opportunities throughout Philadelphia.
+        Whether you're new to gardening or have years of experience,
+        there are many ways to get involved.
+    </p>
+
+</section>
+
+<section class="opportunities">
+
+    <h2>Current Volunteer Openings</h2>
+
+    <div class="table-header">
+        <div>Opportunity</div>
+        <div>Location</div>
+        <div>Date</div>
+        <div>Experience</div>
+        <div></div>
+    </div>
+
+    <div class="opportunity-row">
+        <div class="opportunity-title">
+            <h3>Garden Bed Preparation</h3>
+            <p>Help prepare planting beds for the summer growing season.</p>
+        </div>
+        <div>Fishtown</div>
+        <div>June 14</div>
+        <div>Beginner</div>
+        <div><a href="#" class="signup-btn">Sign Up</a></div>
+    </div>
+
+    <div class="opportunity-row">
+        <div class="opportunity-title">
+            <h3>Weekend Harvest Team</h3>
+            <p>Assist with harvesting vegetables and organizing donations.</p>
+        </div>
+        <div>Kensington</div>
+        <div>June 21</div>
+        <div>All Levels</div>
+        <div><a href="#" class="signup-btn">Sign Up</a></div>
+    </div>
+
+    <div class="opportunity-row">
+        <div class="opportunity-title">
+            <h3>Composting Workshop Assistant</h3>
+            <p>Support instructors during a community composting workshop.</p>
+        </div>
+        <div>South Philly</div>
+        <div>June 28</div>
+        <div>Beginner</div>
+        <div><a href="#" class="signup-btn">Sign Up</a></div>
+    </div>
+
+    <div class="opportunity-row">
+        <div class="opportunity-title">
+            <h3>Youth Garden Mentor</h3>
+            <p>Work with local students and teach basic gardening skills.</p>
+        </div>
+        <div>West Philly</div>
+        <div>July 5</div>
+        <div>Intermediate</div>
+        <div><a href="#" class="signup-btn">Sign Up</a></div>
+    </div>
+
+    <div class="opportunity-row">
+        <div class="opportunity-title">
+            <h3>Community Cleanup Day</h3>
+            <p>Help beautify garden spaces and surrounding neighborhoods.</p>
+        </div>
+        <div>North Philly</div>
+        <div>July 12</div>
+        <div>All Levels</div>
+        <div><a href="#" class="signup-btn">Sign Up</a></div>
+    </div>
+
+    <div class="opportunity-row">
+        <div class="opportunity-title">
+            <h3>Pollinator Garden Planting</h3>
+            <p>Plant flowers that support bees, butterflies, and local wildlife.</p>
+        </div>
+        <div>University City</div>
+        <div>July 19</div>
+        <div>Beginner</div>
+        <div><a href="#" class="signup-btn">Sign Up</a></div>
+    </div>
+
+</section>
+
+<section class="info-section">
+
+    <h2>First Time Volunteering?</h2>
+
+    <p>
+        Most opportunities welcome beginners and provide all necessary tools,
+        training, and guidance. Volunteers should wear comfortable clothing,
+        closed-toe shoes, and bring a reusable water bottle.
+    </p>
+
+</section>
+
+<footer>
+
+    <p>2026 Community Harvest</p>
+
+    <p>
+        Connecting volunteers with community gardens across Philadelphia.
+    </p>
+
+</footer>
+
+</body>
+</html>

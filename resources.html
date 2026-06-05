@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resources</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family:'Inter',sans-serif;
+            background:#F8F9F4;
+            color:#333;
+            line-height:1.6;
+        }
+
+        header{
+            background:#2E7D32;
+            padding:16px 5%;
+        }
+
+        nav{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+        }
+
+        .logo{
+            color:white;
+            font-family:'Poppins',sans-serif;
+            font-size:28px;
+            font-weight:bold;
+        }
+
+        .nav-links{
+            list-style:none;
+            display:flex;
+            gap:24px;
+            flex-wrap:wrap;
+        }
+
+        .nav-links a{
+            color:white;
+            text-decoration:none;
+        }
+
+        .nav-links a:hover{
+            text-decoration:underline;
+        }
+
+        .hero{
+            background:#A5D6A7;
+            text-align:center;
+            padding:64px 32px;
+        }
+
+        .hero h1{
+            color:#1B5E20;
+            font-family:'Poppins',sans-serif;
+            margin-bottom:1rem;
+        }
+
+        .hero p{
+            max-width:800px;
+            margin:auto;
+        }
+
+        .resources{
+            padding:64px 8%;
+        }
+
+        .resources h2{
+            color:#2E7D32;
+            margin-bottom:24px;
+            font-family:'Poppins',sans-serif;
+        }
+
+        .resource-section{
+            background:white;
+            padding:32px;
+            margin-bottom:32px;
+            border-radius:8px;
+            }
+
+        .resource-section ul{
+            margin-left:24px;
+            margin-top:16px;
+        }
+
+        .resource-section li{
+            margin-bottom: 12px;
+        }
+
+        .resource-link{
+            display:inline-block;
+            margin-top:16px;
+            background:#4CAF50;
+            color:white;
+            text-decoration:none;
+            padding:10px 18px;
+            border-radius:5px;
+        }
+
+        .resource-link:hover{
+            background:#2E7D32;
+        }
+
+        .tips{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+            gap:24px;
+            margin-top:32px;
+        }
+
+        .tip-box{
+            background:white;
+            padding:24px;
+            border-top:5px solid #4CAF50;
+            border-radius:8px;
+        }
+
+        .tip-box h3{
+            color:#2E7D32;
+            margin-bottom:12px;
+        }
+
+        footer{
+            background:#2E7D32;
+            color:white;
+            text-align:center;
+            padding:32px;
+        }
+
+        @media(max-width:768px){
+
+            nav{
+                flex-direction:column;
+                gap:16px;
+            }
+
+        }
+
+    </style>
+
+</head>
+<body>
+
+<header>
+
+    <nav>
+
+        <div class="logo">Community Harvest</div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="find-gardens.html">Find Gardens</a></li>
+            <li><a href="volunteer.html">Volunteer Opportunities</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="accessibility.html">Accessibility & FAQ</a></li>
+        </ul>
+
+    </nav>
+
+</header>
+
+<section class="hero">
+
+    <h1>Gardening Resources</h1>
+
+    <p>
+        Learn gardening skills, discover sustainability practices,
+        and access educational materials to help you become a more
+        confident volunteer and community gardener.
+    </p>
+
+</section>
+
+<section class="resources">
+
+    <div class="resource-section">
+
+        <h2>Beginner Gardening Guide</h2>
+
+        <p>
+            New to gardening? Start here. Learn basic gardening tools,
+            planting techniques, watering schedules, and beginner-friendly crops.
+        </p>
+
+        <a href="beginner-guide.html" class="resource-link">
+            View Beginner Guide
+        </a>
+
+    </div>
+
+    <div class="resource-section">
+
+        <h2>Volunteer Safety Guidelines</h2>
+
+        <ul>
+            <li>Wear closed-toe shoes when gardening.</li>
+            <li>Bring water and stay hydrated.</li>
+            <li>Apply sunscreen during outdoor events.</li>
+            <li>Use gardening tools responsibly.</li>
+            <li>Follow garden coordinator instructions.</li>
+        </ul>
+
+    </div>
+
+    <div class="resource-section">
+
+        <h2>Seasonal Gardening Calendar</h2>
+
+        <ul>
+            <li><strong>Spring:</strong> Plant lettuce, spinach, peas, and herbs.</li>
+            <li><strong>Summer:</strong> Grow tomatoes, peppers, cucumbers, and beans.</li>
+            <li><strong>Fall:</strong> Plant kale, carrots, and broccoli.</li>
+            <li><strong>Winter:</strong> Plan next season and prepare compost.</li>
+        </ul>
+
+    </div>
+
+    <div class="resource-section">
+
+        <h2>Sustainability Resources</h2>
+
+        <ul>
+            <li>Composting Basics</li>
+            <li>Water Conservation Tips</li>
+            <li>Pollinator-Friendly Gardening</li>
+            <li>Reducing Food Waste</li>
+            <li>Native Plant Selection</li>
+        </ul>
+
+    </div>
+
+    <h2>Quick Gardening Tips</h2>
+
+    <div class="tips">
+
+        <div class="tip-box">
+            <h3>Start Small</h3>
+            <p>
+                Begin with a few plants and gradually expand as you gain experience.
+            </p>
+        </div>
+
+        <div class="tip-box">
+            <h3>Water Consistently</h3>
+            <p>
+                Deep, regular watering is often better than frequent shallow watering.
+            </p>
+        </div>
+
+        <div class="tip-box">
+            <h3>Support Pollinators</h3>
+            <p>
+                Plant flowers that attract bees, butterflies, and other pollinators.
+            </p>
+        </div>
+
+        <div class="tip-box">
+            <h3>Compost Organics</h3>
+            <p>
+                Food scraps and yard waste can become nutrient-rich compost.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <p>2026 Community Harvest</p>
+
+    <p>
+        Connecting volunteers with community gardens across Philadelphia.
+    </p>
+
+</footer>
+
+</body>
+</html>

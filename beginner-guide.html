@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <title>Beginner Gardening Guide</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family:'Inter',sans-serif;
+            background:#F8F9F4;
+            color:#333;
+            line-height:1.6;
+        }
+
+        header{
+            background:#2E7D32;
+            padding:16px 5%;
+        }
+
+        nav{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+        }
+
+        .logo{
+            color:white;
+            font-family:'Poppins',sans-serif;
+            font-size:28px;
+            font-weight:bold;
+        }
+
+        .nav-links{
+            list-style:none;
+            display:flex;
+            gap:24px;
+            flex-wrap:wrap;
+        }
+
+        .nav-links a{
+            color:white;
+            text-decoration:none;
+        }
+
+        .nav-links a:hover{
+            text-decoration:underline;
+        }
+
+        .hero{
+            background:#A5D6A7;
+            text-align:center;
+            padding:64px 32px;
+        }
+
+        .hero h1{
+            color:#1B5E20;
+            font-family:'Poppins',sans-serif;
+            margin-bottom:16px;
+        }
+
+        .hero p{
+            max-width:800px;
+            margin:auto;
+        }
+
+        .guide-container{
+            max-width:1000px;
+            margin:64px auto;
+            padding:0 32px;
+        }
+
+        .guide-section{
+            background:white;
+            padding:32px;
+            margin-bottom:32px;
+            border-radius:10px;
+        }
+
+        .guide-section h2{
+            color:#2E7D32;
+            font-family:'Poppins',sans-serif;
+            margin-bottom:1rem;
+        }
+
+        .guide-section ul,
+        .guide-section ol{
+            margin-left:24px;
+            margin-top:16px;
+        }
+
+        .guide-section li{
+            margin-bottom:12px;
+        }
+
+        footer{
+            background:#2E7D32;
+            color:white;
+            text-align:center;
+            padding:32px;
+            margin-top:64px;
+        }
+
+        @media(max-width:768px){
+
+            nav{
+                flex-direction:column;
+                gap:16px;
+            }
+
+        }
+
+    </style>
+
+</head>
+<body>
+
+<header>
+
+    <nav>
+
+        <div class="logo">Community Harvest</div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="find-gardens.html">Find Gardens</a></li>
+            <li><a href="volunteer.html">Volunteer Opportunities</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="accessibility.html">Accessibility & FAQ</a></li>
+        </ul>
+
+    </nav>
+
+</header>
+
+<section class="hero">
+
+    <h1>Beginner Gardening Guide</h1>
+
+    <p>
+        New to gardening? This guide will introduce you to the basics so you can
+        confidently participate in community garden projects and start growing
+        your own plants.
+    </p>
+
+</section>
+
+<div class="guide-container">
+
+    <section class="guide-section">
+
+        <h2>Why Garden?</h2>
+
+        <p>
+            Gardening provides many benefits, including access to fresh food,
+            opportunities for physical activity, stress reduction, environmental
+            stewardship, and stronger community connections.
+        </p>
+
+    </section>
+
+    <section class="guide-section">
+
+        <h2>Basic Gardening Tools</h2>
+
+        <ul>
+            <li>Hand Trowel – for digging small holes and planting seedlings.</li>
+            <li>Garden Gloves – protect your hands from dirt and rough surfaces.</li>
+            <li>Watering Can or Hose – for watering plants consistently.</li>
+            <li>Pruning Shears – for trimming plants and harvesting produce.</li>
+            <li>Garden Fork – helps loosen and aerate soil.</li>
+        </ul>
+
+    </section>
+
+    <section class="guide-section">
+
+        <h2>How to Start Gardening</h2>
+
+        <ol>
+            <li>Choose a location with adequate sunlight.</li>
+            <li>Prepare healthy soil by removing weeds and adding compost.</li>
+            <li>Select beginner-friendly plants.</li>
+            <li>Plant seeds or seedlings according to instructions.</li>
+            <li>Water regularly and monitor plant growth.</li>
+            <li>Remove weeds and pests as needed.</li>
+            <li>Harvest crops when they are ready.</li>
+        </ol>
+
+    </section>
+
+    <section class="guide-section">
+
+        <h2>Beginner-Friendly Plants</h2>
+
+        <ul>
+            <li>Tomatoes</li>
+            <li>Lettuce</li>
+            <li>Basil</li>
+            <li>Mint</li>
+            <li>Green Beans</li>
+            <li>Radishes</li>
+            <li>Sunflowers</li>
+            <li>Peppers</li>
+        </ul>
+
+    </section>
+
+    <section class="guide-section">
+
+        <h2>Watering Basics</h2>
+
+        <p>
+            Most garden plants need consistent watering. Water deeply rather
+            than lightly so roots grow stronger. Early morning is often the
+            best time to water because less moisture evaporates.
+        </p>
+
+    </section>
+
+    <section class="guide-section">
+
+        <h2>Composting Basics</h2>
+
+        <p>
+            Composting turns food scraps and yard waste into nutrient-rich soil.
+            Common compost materials include:
+        </p>
+
+        <ul>
+            <li>Fruit and vegetable scraps</li>
+            <li>Coffee grounds</li>
+            <li>Leaves and grass clippings</li>
+            <li>Shredded paper and cardboard</li>
+        </ul>
+
+    </section>
+
+   
+    <section class="guide-section">
+
+        <h2>Get Involved</h2>
+
+        <p>
+            One of the best ways to learn gardening is through hands-on
+            experience. Explore local community gardens and volunteer
+            opportunities to learn from experienced gardeners while
+            contributing to your community.
+        </p>
+        <br> 
+        <a href="volunteer.html">View Volunteer Opportunities</a>
+
+    </section>
+
+</div>
+
+<footer>
+
+    <p>2026 Community Harvest</p>
+
+    <p>
+        Connecting volunteers with community gardens across Philadelphia.
+    </p>
+
+</footer>
+
+</body>
+</html>

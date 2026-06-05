@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Community Harvest </title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #F8F9F4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #2E7D32;
+            padding: 16px 5%;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 24px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background: linear-gradient(rgba(245,239,227,.8),
+                        rgba(201,123,99,.8)),
+                        url("https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=1400&q=80");
+            background-size: cover;
+            background-position: center;
+            color: #084005;
+            text-align: center;
+            padding: 96px 32px;
+        }
+
+        .hero h1 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 48px;
+            margin-bottom: 16px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            max-width: 700px;
+            margin: auto;
+        }
+
+        .hero-buttons {
+            margin-top: 32px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #A5D6A7;
+            color: #1B5E20;
+            padding: 12px 24px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 8px;
+        }
+
+        .btn:hover {
+            background-color: white;
+        }
+
+        section {
+            padding: 64px 8%;
+        }
+
+        h2 {
+            font-family: 'Poppins', sans-serif;
+            color: #2E7D32;
+            text-align: center;
+            margin-bottom: 32px;
+        }
+
+        .benefits {
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+            gap: 24px;
+        }
+
+        .card {
+            background: white;
+            padding: 32px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .card h3 {
+            margin-bottom: 16px;
+            color: #2E7D32;
+        }
+
+        .featured-garden {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 32px;
+            align-items: center;
+        }
+
+        .featured-garden img {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 10px;
+        }
+
+        .garden-text {
+            flex: 1;
+        }
+
+        .events {
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+            gap: 24px;
+        }
+
+        .event-card {
+            background: white;
+            padding: 24px;
+            border-left: 5px solid #4CAF50;
+            border-radius: 8px;
+                 }
+
+        footer {
+            background-color: #2E7D32;
+            color: white;
+            text-align: center;
+            padding: 32px;
+        }
+
+        footer a {
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+
+            nav {
+                flex-direction: column;
+                gap: 16px;
+            }
+
+            .nav-links {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .hero h1 {
+                font-size: 36px;
+            }
+
+            .featured-garden {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="logo">Community Harvest</div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="find-gardens.html">Find Gardens</a></li>
+            <li><a href="volunteer.html">Volunteer Opportunities</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+             <li><a href="accessibility.html">Accessibility & FAQ</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Connecting People with Community Gardens</h1>
+
+    <p>
+        Discover local volunteer opportunities, learn gardening skills,
+        and help cultivate stronger, healthier communities.
+    </p>
+
+    <div class="hero-buttons">
+        <a href="find-gardens.html" class="btn">Find Gardens</a>
+        <a href="volunteer.html" class="btn">Volunteer Today</a>
+    </div>
+</section>
+
+<section>
+    <h2>Why Community Harvest?</h2>
+
+    <div class="benefits">
+
+        <div class="card">
+            <h3>Volunteer</h3>
+            <p>
+                Find meaningful opportunities to support local gardens
+                and neighborhood sustainability efforts.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Learn</h3>
+            <p>
+                Access gardening guides, educational resources,
+                and hands-on experience.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Connect</h3>
+            <p>
+                Meet neighbors, build relationships, and strengthen
+                your local community.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Grow</h3>
+            <p>
+                Support food security, green spaces,
+                and environmental stewardship.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2>Featured Community Garden</h2>
+
+    <div class="featured-garden">
+
+        <img
+        src="https://www.srpcg.org/images/banners/P4120362.jpg"
+        alt="garden entrance of Schuyklkill River Park Community Garden">
+
+        <div class="garden-text">
+
+            <h3>Summer Winter Community Garden</h3>
+
+            <p>
+                The Summer Winter Community Garden is one of the oldest community gardens in Philadelphia. 
+                It is located in the Powelton Village section of the city, near Drexel University. 
+                It is run entirely by volunteers for the benefit of its members. 
+                The Summer Winter Community Gardens provide sustenance, beauty and a sense of calm within its confines.
+            </p>
+
+            <br>
+
+            <p>
+          Whether you're a first-time gardener or an experienced
+          volunteer, there are many ways to get involved and
+          make a positive impact.
+            </p>
+
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2>Upcoming Events</h2>
+
+    <div class="events">
+
+        <div class="event-card">
+            <h3>Spring Planting Day</h3>
+            <p><strong>Date:</strong> June 15</p>
+            <p>Help plant vegetables and flowers for the summer season.</p>
+        </div>
+
+        <div class="event-card">
+            <h3>Composting Workshop</h3>
+            <p><strong>Date:</strong> July 8</p>
+            <p>Learn sustainable composting techniques from local experts.</p>
+        </div>
+
+        <div class="event-card">
+            <h3>Community Harvest Festival</h3>
+            <p><strong>Date:</strong> August 10</p>
+            <p>Celebrate local food, gardening, and neighborhood connections.</p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2>Our Mission</h2>
+
+    <p style="max-width:900px; margin:auto; text-align:center;">
+        Community Harvest serves as a bridge between individuals who want
+        to make a difference and community gardens that need support.
+        By centralizing volunteer opportunities, educational resources,
+        and community events, we help create stronger neighborhoods,
+        healthier environments, and more accessible pathways to civic engagement.
+    </p>
+</section>
+
+<footer>
+    <p>2026 Community Harvest</p>
+
+    <p>
+        Growing communities through volunteering,
+        sustainability, and connection.
+    </p>
+</footer>
+
+</body>
+</html>

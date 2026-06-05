@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+       <title>Accessibility & FAQ</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family:'Inter',sans-serif;
+            background:#F8F9F4;
+            color:#333;
+            line-height:1.6;
+        }
+
+        header{
+            background:#56494e;
+            padding:16px 5%;
+        }
+
+        nav{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+        }
+
+        .logo{
+            color:white;
+            font-family:'Poppins',sans-serif;
+            font-size:28px;
+            font-weight:bold;
+        }
+
+        .nav-links{
+            list-style:none;
+            display:flex;
+            gap:24px;
+            flex-wrap:wrap;
+        }
+
+        .nav-links a{
+            color:white;
+            text-decoration:none;
+        }
+
+        .nav-links a:hover{
+            text-decoration:underline;
+        }
+
+        .hero{
+            background:#833e58;
+            text-align:center;
+            padding:64px 32px;
+        }
+
+        .hero h1{
+            color:white;
+            font-family:'Poppins',sans-serif;
+            margin-bottom:16px;
+        }
+
+        .hero p{
+            max-width:800px;
+            color: white;
+            margin:auto;
+        }
+
+        .container{
+            max-width:1000px;
+            margin:64px auto;
+            padding:0 32px;
+        }
+
+        .section{
+            background:white;
+            padding:32px;
+            margin-bottom:32px;
+            border-radius:10px;
+        }
+
+        .section h2{
+            color:#56494e;
+            font-family:'Poppins',sans-serif;
+            margin-bottom:16px;
+        }
+
+        .section ul{
+            margin-left:24px;
+        }
+
+        .section li{
+            margin-bottom:12px;
+        }
+
+        .faq-item{
+            margin-bottom:24px;
+            padding-bottom:16px;
+            border-bottom:1px solid #ddd;
+        }
+
+        .faq-item:last-child{
+            border-bottom:none;
+        }
+
+        .faq-item h3{
+            color:#56494e;
+            margin-bottom:8px;
+        }
+
+      
+        footer{
+            background:#56494e;
+            color:white;
+            text-align:center;
+            padding:32px;
+            margin-top:64px;
+        }
+
+        @media(max-width:768px){
+
+            nav{
+                flex-direction:column;
+                gap:16px;
+            }
+
+        }
+
+    </style>
+
+</head>
+<body>
+
+<header>
+
+    <nav>
+
+        <div class="logo">Community Harvest</div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="find-gardens.html">Find Gardens</a></li>
+            <li><a href="volunteer.html">Volunteer Opportunities</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="accessibility.html">Accessibility & FAQ</a></li>
+        </ul>
+
+    </nav>
+
+</header>
+
+<section class="hero">
+
+    <h1>Accessibility & FAQ</h1>
+
+    <p>
+        Community Harvest is committed to making volunteer opportunities,
+        gardening resources, and community events accessible to everyone.
+    </p>
+
+</section>
+
+<div class="container">
+    
+    <section class="section">
+
+        <h2>Volunteer Accessibility Information</h2>
+
+        <ul>
+            <li>Many gardens are accessible by public transportation.</li>
+            <li>Some gardens provide wheelchair-accessible pathways.</li>
+            <li>Volunteers may request accommodations when registering for events.</li>
+            <li>Garden coordinators can provide additional accessibility details.</li>
+            <li>Family-friendly and beginner-friendly opportunities are identified throughout the site.</li>
+        </ul>
+
+    </section>
+
+    <section class="section">
+
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-item">
+            <h3>Do I need gardening experience?</h3>
+            <p>
+                No. Many volunteer opportunities are beginner-friendly and
+                provide training on-site.
+            </p>
+        </div>
+
+        <div class="faq-item">
+            <h3>What should I bring to volunteer events?</h3>
+            <p>
+                Comfortable clothing, closed-toe shoes, sunscreen,
+                and a reusable water bottle are recommended.
+            </p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Are community garden events free?</h3>
+            <p>
+                Most volunteer opportunities and community events are free
+                to attend unless otherwise noted.
+            </p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Can children participate?</h3>
+            <p>
+                Many gardens welcome families and children. Check the event
+                description for age recommendations.
+            </p>
+        </div>
+
+        <div class="faq-item">
+            <h3>How do I find accessible gardens?</h3>
+            <p>
+                Accessibility information is included in garden listings
+                whenever available. You may also contact garden coordinators
+                directly for specific accommodation requests.
+            </p>
+        </div>
+
+        <div class="faq-item">
+            <h3>How can a garden join Community Harvest?</h3>
+            <p>
+                Visit the Contact page and reach out to our team to learn
+                about becoming a partner garden.
+            </p>
+        </div>
+
+    </section>
+
+</div>
+
+<footer>
+
+    <p> 2026 Community Harvest</p>
+
+    <p>
+        Connecting volunteers with community gardens across Philadelphia.
+    </p>
+
+</footer>
+
+</body>
+</html>
